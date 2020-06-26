@@ -32,8 +32,8 @@ code {
 
 .nav {
   background-color: #6fa8dc;
-  height: 300px;
-  width: 300px;
+  height: 24em;
+  width: 23em;
   text-align: center;
   align-self: flex-start;
 }
@@ -41,22 +41,26 @@ code {
 .main {
   background-color: #e06666;
   height: 30em;
-  width: 70em;
+  width: 65em;
   display: flex;
-  margin-left: auto;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 15px 0px;
+  margin-left: auto;
+  text-align: center;
 }
 
 .sub {
   background-color: #ffd966;
-  height: 20em;
+  height: 22em;
   width: 20em;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .ad {
   background-color: #b4a7d6;
   align-self: flex-end;
   width: 65em;
+  margin: 15px;
+  text-align: center;
 }
