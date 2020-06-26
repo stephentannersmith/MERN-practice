@@ -1,16 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-import PersonCard from './components/personCard'
+import '../src/index.css'
+import Header from './components/header'
+import Nav from './components/navigation'
+import Main from './components/main'
+import Subcontent from './components/subcontent'
+import Advert from './components/advertisement'
 
 function App() {
   return (
     <div className="App">
-      <PersonCard firstName="Jane" lastName="Doe" age={45} hairColor="Black" />
-      <PersonCard firstName="John" lastName="Smith" age={88} hairColor="Brown" />
-      <PersonCard firstName="Millard" lastName="Fillmore" age={50} hairColor="Brown" />
-      <PersonCard firstName="Maria" lastName="Smith" age={62} hairColor="Brown" />
+      <Header />
+      <Nav />
+      <Main>
+        <Subcontent />
+        <Subcontent />
+        <Subcontent />
+      </Main>
+      <Advert />
     </div>
   );
 }
