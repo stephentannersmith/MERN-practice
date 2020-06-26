@@ -15,8 +15,8 @@ function App() {
         <Subcontent />
         <Subcontent />
         <Subcontent />
+        <Advert />
       </Main>
-      <Advert />
     </div>
   );
 }
